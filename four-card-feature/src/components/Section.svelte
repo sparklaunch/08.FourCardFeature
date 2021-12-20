@@ -4,5 +4,5 @@
 </script>
 
 <div id="section">
-    <Card />
+    <Card data={data[0]} />
 </div>
