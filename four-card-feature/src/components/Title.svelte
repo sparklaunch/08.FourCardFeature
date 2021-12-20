@@ -13,6 +13,7 @@
 <style>
     #title {
         width: 500px;
+        margin-bottom: 50px;
     }
     #title > h1 {
         color: rgb(80, 80, 100);

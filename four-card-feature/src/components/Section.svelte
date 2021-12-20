@@ -15,3 +15,18 @@
         <Card data={data[3]} />
     </div>
 </div>
+
+<style>
+    #section {
+        display: flex;
+        align-items: center;
+    }
+    #left {
+        margin-right: 30px;
+    }
+    #center {
+        margin-right: 30px;
+        display: grid;
+        row-gap: 30px;
+    }
+</style>

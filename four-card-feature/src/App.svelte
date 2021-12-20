@@ -59,15 +59,22 @@
     />
 </svelte:head>
 <div id="app">
-    <Title />
-    <Section {data} />
+    <div id="wrapper">
+        <Title />
+        <Section {data} />
+    </div>
 </div>
 
 <style>
     #app {
         display: flex;
-        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #wrapper {
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 </style>
