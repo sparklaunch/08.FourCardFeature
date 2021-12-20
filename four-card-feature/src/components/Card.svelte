@@ -23,7 +23,7 @@
         overflow: hidden;
         box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.1);
         height: 250px;
-        width: 320px;
+        max-width: 320px;
     }
     .card-upperline {
         width: 100%;
@@ -46,5 +46,10 @@
     }
     .card-content > img {
         align-self: flex-end;
+    }
+    @media all and (max-width: 1440px) {
+        .card {
+            margin-bottom: 30px;
+        }
     }
 </style>

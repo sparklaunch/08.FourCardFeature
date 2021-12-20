@@ -29,4 +29,14 @@
     .emphasized {
         font-weight: 600;
     }
+    @media all and (max-width: 1440px) {
+        #title {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+        .emphasized {
+            display: block;
+        }
+    }
 </style>

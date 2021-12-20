@@ -29,4 +29,16 @@
         display: grid;
         row-gap: 30px;
     }
+    @media all and (max-width: 1440px) {
+        #section {
+            flex-direction: column;
+        }
+        #left {
+            margin-right: 0;
+        }
+        #center {
+            margin-right: 0;
+            row-gap: 0;
+        }
+    }
 </style>

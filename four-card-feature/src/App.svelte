@@ -77,4 +77,10 @@
         flex-direction: column;
         align-items: center;
     }
+    @media all and (max-width: 1440px) {
+        #app {
+            display: block;
+            margin: 50px 0;
+        }
+    }
 </style>
