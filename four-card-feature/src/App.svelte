@@ -27,8 +27,26 @@
             title: "Supervisor",
             detail: "Monitors activity to identify project roadblocks",
             icon: "icon-supervisor.svg",
-            color: new Color(110, 210, 210),
+            color: new Color(110, 210, 210)
         },
+        {
+            title: "Team Builder",
+            detail: "Scans our talent network to create the optimal team for your project",
+            icon: "icon-team-builder.svg",
+            color: new Color(210, 90, 80)
+        },
+        {
+            title: "Karma",
+            detail: "Regularly evaluates our talent to ensure quality",
+            icon: "icon-karma.svg",
+            color: new Color(240, 180, 90)
+        },
+        {
+            title: "Calculator",
+            detail: "Uses data from past projects to provide better delivery estimates",
+            icon: "icon-calculator.svg",
+            color: new Color(100, 160, 240)
+        }
     ];
 </script>
 

@@ -4,5 +4,14 @@
 </script>
 
 <div id="section">
-    <Card data={data[0]} />
+    <div id="left">
+        <Card data={data[0]} />
+    </div>
+    <div id="center">
+        <Card data={data[1]} />
+        <Card data={data[2]} />
+    </div>
+    <div id="right">
+        <Card data={data[3]} />
+    </div>
 </div>
