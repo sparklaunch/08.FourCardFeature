@@ -58,15 +58,15 @@
         rel="stylesheet"
     />
 </svelte:head>
-<div id="app">
+<main>
     <div id="wrapper">
         <Title />
         <Section {data} />
     </div>
-</div>
+</main>
 
 <style>
-    #app {
+    main {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -78,7 +78,7 @@
         align-items: center;
     }
     @media all and (max-width: 1440px) {
-        #app {
+        main {
             display: block;
             margin: 50px 0;
         }

@@ -49,7 +49,10 @@
     }
     @media all and (max-width: 1440px) {
         .card {
+            margin: 0;
             margin-bottom: 30px;
+            max-width: none;
+            align-items: stretch;
         }
     }
 </style>

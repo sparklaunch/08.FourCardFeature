@@ -32,12 +32,17 @@
     @media all and (max-width: 1440px) {
         #section {
             flex-direction: column;
+            align-items: stretch;
+            width: 90%;
         }
         #left {
             margin-right: 0;
         }
         #center {
             margin-right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
             row-gap: 0;
         }
     }
